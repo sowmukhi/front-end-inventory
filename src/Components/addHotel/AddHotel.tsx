@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Hotel } from "../../type/Hotel";
 import { useNavigate } from "react-router-dom";
-import "./AddHotel.css";
+import "./addHotel.css";
 
 const AddHotel: React.FC = () => {
   const [hotel, setHotel] = useState<Hotel>({
